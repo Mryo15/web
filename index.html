@@ -20,6 +20,20 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  h1{
+  position: relative;
+  padding: 0.5em;
+  background: #a63c8;
+  color: white;
+}
+  h1::before{
+  position: absolute;
+  content: '';
+  top: 100%;
+  left:0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
   <div class=header>
     <h1>私のホームページ</h1>
     <div>公大高専1年のryoyaについての自己紹介をします．</div>
@@ -27,8 +41,7 @@
   <div class=main>
     <div>
       <h2>WEB実験</h2>
-      <div>1週目はScratchでプログラミングを行った．
-        　 2週目は機械学習や，VR(バーチャルリアリティー)を体験した．
+      <div>1週目はScratchでプログラミングを行った.2週目は機械学習や，VR(バーチャルリアリティー)を体験した．
       </div>
     </div>
 
