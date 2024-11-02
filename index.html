@@ -18,20 +18,36 @@
   <meta name="format-detection" content="telephone=no">
 
   <link rel="stylesheet" href="index.css">
-h1{
-  position: relative;
-  padding: 0.5em;
-  background: #a63c8;
-  color: white;
-}
-h1::before{
-  position: absolute;
-  content: '';
-  top: 100%;
-  left:0;
-  border: none;
-  border-bottom: solid 15px transparent;
-  border-right: solid 20px rgb(149, 158, 155);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Styled H1</title>
+    <style>
+        h1 {
+            position: relative;
+            padding: 0.5em;
+            background: #a63c8f; /* Corrected HEX code */
+            color: white;
+        }
+
+        h1::before {
+            position: absolute;
+            content: '';
+            top: 100%;
+            left: 0;
+            border: none;
+            border-bottom: solid 15px transparent;
+            border-right: solid 20px rgb(149, 158, 155);
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Heading Here</h1>
+</body>
+</html>
   </head>
   <body>
   <div class=header>
